@@ -1,11 +1,6 @@
+@import '~normalize.css/normalize';
 @import 'colors.scss';
 @import 'global.scss';
-
-@font-face {
-    font-family: Impact;
-    src: url('impact.ttf');
-}
-
 
 /*IMPORTS*/
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,400i,500|Lobster:400|Source+Code+Pro:400';
@@ -31,7 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  margin: 15px 0;
+  margin-bottom: 15px;
   font-family: "Open Sans";
   font-weight: 300;
 }
@@ -533,4 +528,11 @@ h3 > i.fa {
 #canvasWrapper {
     text-align: center;
     margin-top: 40px;
+}
+
+#examples {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 200px;
+  display: flex;
 }

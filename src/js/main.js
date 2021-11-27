@@ -1,4 +1,5 @@
 import { SkynetClient } from "skynet-js";
+import '../scss/index.scss';
 
 
 /**
